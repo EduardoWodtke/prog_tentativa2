@@ -1,7 +1,8 @@
-<script>
+<script setup>
     import { carrinho, removerItemCarrinho, atualizaQuantidadeItem } from '@/_data/carrinho.js'
+    
     function formatarPreco(preco) {
-  return 'R$ ' + preco.toFixed(2).replace('.', ',')
+    return 'R$ ' + preco.toFixed(2).replace('.', ',')
 }
 </script>
 
