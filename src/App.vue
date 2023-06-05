@@ -5,7 +5,7 @@ import CardLivro from './components/CardLivro.vue';
 </script>
 
 <template>
-  <h1>Minha livraria</h1>
+  <h1>Minha livraria!</h1>
   <div class="container-geral">
     <div class="listagem-livros">
       <card-livro v-for="livro in livros" :key="livro.id" :livro="livro"/>
