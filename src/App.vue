@@ -4,7 +4,7 @@ import MeuCarrinho from '@/components/MeuCarrinho.vue'
 </script>
 
 <template>
-  <h1>Minha livraria!</h1>
+  <h1>Nossa livraria! ☭</h1>
   <div class="container-geral">
     <listagem-livros />
     <meu-carrinho />

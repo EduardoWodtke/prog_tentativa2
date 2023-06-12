@@ -1,6 +1,7 @@
 <script setup>
 import { carrinho, removerItemCarrinho, atualizaQuantidadeItem } from '@/_data/carrinho.js'
 import MButton from './MButton.vue'
+import MMessage from './MMessage.vue'
 
 function formatarPreco(preco) {
   return 'R$ ' + preco.toFixed(2).replace('.', ',')
@@ -11,7 +12,7 @@ function formatarPreco(preco) {
   <div class="carrinho">
     <h2>Meu carrinho</h2>
     <div class="wrap-carrinho">
-      <p v-if="carrinho.itens.length === 0">Seu carrinho está vazio</p>
+      <m-message v-if="carrinho.itens.length === 0" />
       <div v-else>
         <div class="item-carrinho" v-for="(item, index) in carrinho.itens" :key="index">
           <div class="info-livro">

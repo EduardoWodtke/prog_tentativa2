@@ -20,7 +20,7 @@ function formatarPreco(preco) {
       <p class="preco-livro">{{ formatarPreco(props.livro.price) }}</p>
     </div>
     <div class="card-buttons-livros">
-      <button @click="adicionarAoCarrinho(props.livro)">Adicionar ao carrinho</button>
+      <m-button @click="adicionarAoCarrinho(props.livro)" text="Adicionar ao carrinho"/>
       <m-button text="favoritar"/>
     </div>
   </div>
@@ -30,7 +30,7 @@ function formatarPreco(preco) {
 .card-livro {
   margin: 5px 10px;
   padding: 10px;
-  background-color: beige;
+  background-color: rgb(255, 0, 0);
   border-radius: 10px;
   width: 180px;
   display: flex;

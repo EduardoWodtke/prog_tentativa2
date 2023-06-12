@@ -15,10 +15,10 @@ export const livros = [
   },
   {
     id: 3,
-    title: 'O Pequeno Príncipe',
-    author: 'Antoine de Saint-Exupéry',
+    title: 'Manifesto do partido comunista',
+    author: 'karl marx',
     price: 19.9,
-    img: 'https://m.media-amazon.com/images/I/41afCn3PQUL._SY344_BO1,204,203,200_QL70_ML2_.jpg'
+    img: 'https://aventurasnahistoria.uol.com.br/media/uploads/81-4tdsbzfl.jpg'
   },
   {
     id: 4,
